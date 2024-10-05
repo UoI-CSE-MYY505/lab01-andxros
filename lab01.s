@@ -1,3 +1,5 @@
+# my test comment 
+
 # Introduction to Risc-V assembly programming using Ripes (https://github.com/mortbopet/Ripes)
 # for MYY505 - Computer Architecture
 # Aris Efthymiou
@@ -54,7 +56,7 @@ prog:   # Labels in code are used for control flow: if/then/else, loops, etc.
         #  In this case the label is required for the course's automated
         #  test.
         # Labels do not take up space in memory. They are only used by the assembler
-
+        
         li         s0, 100         # Get value 100 into register s0. li - load immediate
         
         lw         s1, 0(a1)       # s1 gets the value of var1. a1 has the address of var1
